@@ -751,7 +751,7 @@ a.slide_btn {
 
 .swiper-container {
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
