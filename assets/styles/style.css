@@ -189,7 +189,7 @@
 .nav {
     width: 100%;
     z-index: 10;
-    padding: 27px;
+    padding: 18px 27px;
     position: fixed;
     top: 0;
     left: 0;
@@ -197,7 +197,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .burger {
@@ -1357,6 +1356,7 @@ input:hover::placeholder {
 }
 
 .filterItem:hover {
+    cursor: pointer;
     border-radius: 50px;
     background: #B37D68;
     color: white;
@@ -3455,6 +3455,7 @@ input {
 }
 
 .calkulateSlider p {
+    padding: 16px 0;
     color: #000;
     font-family: Arial;
     font-size: 16px;
